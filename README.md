@@ -95,3 +95,10 @@ int32_t dp83822_io_get_tick(void)
   return HAL_GetTick();
 }
 ```
+
+## NetXDuo additional instructions
+When creating your NetXDuo project, select "LAN8742" from the STM32 BSP software packs. When your project is generated, go to
+```
+YourProject/Middlewares/ST/netxduo/common/drivers/ethernet/nx_stm32_phy_driver.h
+```
+Replace all references to lan8743 with the identical references from the dp83822 file, should look similar to the example above.
