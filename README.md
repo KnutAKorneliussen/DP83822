@@ -9,6 +9,9 @@ Tested with STM32H743, with NetXDuo/ThreadX
 ```
 #include "dp83822.h"
 
+#define  ETH_PHY_STATUS_ERROR                 ((int32_t)-1)
+#define  ETH_PHY_STATUS_OK                    ((int32_t) 0)
+
 /* DP83822 IO functions */
 static int32_t dp83822_io_init(void);
 static int32_t dp83822_io_deinit (void);
