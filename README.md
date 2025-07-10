@@ -3,7 +3,7 @@ DP83822 PHY driver based on STM32 BSP template
 
 ## About
 STM32 BSP library doesn't support DP83822 PHY, this uses the exact same interface and can be considered a stand-in for the missing BSP driver.
-Tested with STM32H743, with NetXDuo/ThreadX
+Tested with STM32H743, using NetXDuo/ThreadX
 
 ## Example
 ```
